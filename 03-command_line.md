@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd-shows current working directory path
+mkdir-creates a new directory
+rm -r-deletes a directory and all it's child directories
+touch-creates a new file
+cp(1starg, 2ndarg)-copies files and directories from one directory to another
+cd-changes working directory
+ls -a-lists hidden files
+* -selects all files in current directory
+mv-move a file into a directory
+rm-deletes a file
+sed-renames a file
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls-lists all the files in the current directory
+ls -a-lists hidden files
+ls -l-lists all files in long format
+ls -lh-lists files in long format with byte sizes
+ls -lah-lists all files(including hidden files) in long format with byte sizes
+ls -t-lists files in order of when they were last modified
+ls -Glp-lists files with group ID number in long format and puts "/" after directory name
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -a
+ls -m
+ls -C
+ls -q
+ls -R
 
 ---
 
@@ -51,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs runs a command by taking the text you type afterwards as an arguement. For example, running xargs touch and then typing bob new cat will create three files called bob, new, and cat.
 
  
 
