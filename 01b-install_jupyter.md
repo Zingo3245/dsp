@@ -20,3 +20,4 @@ Review the [notes on using Jupyter Notebook](resources/jupyter_notebook_2_use.md
  
 
 
+Jupyter notebook is installed and ready.
