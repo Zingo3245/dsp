@@ -20,17 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-pwd-shows current working directory path**
-mkdir-creates a new directory**
-rm -r-deletes a directory and all it's child directories**
-touch-creates a new file**
-cp(1starg, 2ndarg)-copies files and directories from one directory to another**
-cd-changes working directory**
-ls -a-lists hidden files**
-* -selects all files in current directory**
-mv-move a file into a directory**
-rm-deletes a file**
-sed-renames a file**
+1.pwd-shows current working directory path
+2.mkdir-creates a new directory
+3.rm -r-deletes a directory and all it's child directories
+4.touch-creates a new file
+5.cp(1starg, 2ndarg)-copies files and directories from one directory to another
+6.cd-changes working directory
+7.ls -a-lists hidden files
+8.* -selects all files in current directory
+9.mv-move a file into a directory
+10.rm-deletes a file
+11.sed-renames a file
 
 ---
 
@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls-lists all the files in the current directory\n
-ls -a-lists hidden files\n
-ls -l-lists all files in long format\n
-ls -lh-lists files in long format with byte sizes\n
-ls -lah-lists all files(including hidden files) in long format with byte sizes\n
-ls -t-lists files in order of when they were last modified\n
-ls -Glp-lists files with group ID number in long format and puts "/" after directory name\n
+1.ls-lists all the files in the current directory
+2.ls -a-lists hidden files
+3.ls -l-lists all files in long format
+4.ls -lh-lists files in long format with byte sizes
+5.ls -lah-lists all files(including hidden files) in long format with byte sizes
+6.ls -t-lists files in order of when they were last modified
+7.ls -Glp-lists files with group ID number in long format and puts "/" after directory name
 
 ---
 
@@ -59,11 +59,11 @@ ls -Glp-lists files with group ID number in long format and puts "/" after direc
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-ls -a\n
-ls -m\n
-ls -C\n
-ls -q\n
-ls -R\n
+1.ls -a
+2.ls -m
+3.ls -C
+4.ls -q
+5.ls -R
 
 ---
 
