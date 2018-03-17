@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-1.ls-lists all the files in the current directory
-2.ls -a-lists hidden files
-3.ls -l-lists all files in long format
-4.ls -lh-lists files in long format with byte sizes
-5.ls -lah-lists all files(including hidden files) in long format with byte sizes
-6.ls -t-lists files in order of when they were last modified
-7.ls -Glp-lists files with group ID number in long format and puts "/" after directory name
+1. ls-lists all the files in the current directory
+2. ls -a-lists hidden files
+3. ls -l-lists all files in long format
+4. ls -lh-lists files in long format with byte sizes
+5. ls -lah-lists all files(including hidden files) in long format with byte sizes
+6. ls -t-lists files in order of when they were last modified
+7. ls -Glp-lists files with group ID number in long format and puts "/" after directory name
 
 ---
 
