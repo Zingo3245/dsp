@@ -174,3 +174,17 @@ Content in the first column | Content in the second column
 ## <a name="section-r"></a>References 
 
 [Markdown Help](http://mathoverflow.net/editing-help)
+
+# This is my work in Markdown
+*Part 1 of my Metis work requires learning Markdown*(**Italics mine**)
+__________________________________________
+This is a revolutionary way of writing formatted text that can be used in the Jupyter notebook along with code :fireworks: :smiley: 
+Here's a link to the [web editor I'm using.](https://stackedit.io/app#)
+I can also use python-specific language such as ```print("hello world")```
+Hope to see everyone soon.
+
+|Event                          |Date                          |
+|----------------|-------------------------------|-----------------------------|
+| Winter Cohort invite | April 5th |
+| Bootcamp start | April 9th |
+
