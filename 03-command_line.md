@@ -28,9 +28,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 6. cd-changes working directory
 7. ls -a-lists hidden files
 8. * -selects all files in current directory
-9. mv-move a file into a directory
+9. mv-move a file into a directory or renames a file
 10. rm-deletes a file
-11. sed-renames a file
+
 
 ---
 
