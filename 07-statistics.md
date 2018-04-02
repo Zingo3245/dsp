@@ -99,6 +99,42 @@ Cohen_d(firsts.totalwgt_lb, others.totalwgt_lb)
 ### Q2. [Think Stats Chapter 3 Exercise 1](statistics/3-1-actual_biased.md) (actual vs. biased)
 This problem presents a robust example of actual vs biased data.  As a data scientist, it will be important to examine not only the data that is available, but also the data that may be missing but highly relevant.  You will see how the absence of this relevant data will bias a dataset, its distribution, and ultimately, its statistical interpretation.
 
+**My Solution**
+This pyoblem borrows from the issue of the class size paradox explained in chapter three. Exercise 1 asks for what the dataset actually looks like versus what the data would look like from the perspective of a randomly selected case. In this case, I'm looking at what the data would look like if children were serveyed on the size of their family. The following functions were used:
+```
+def Bias_pmf(pmf, label):
+    bias_pmf = pmf.Copy(label=label)
+    
+    for c, r in pmf.Items():
+        bias_pmf.Mult(x, x)
+        
+    bias_pmf.normalize()
+    return bias_pmf
+
+def Normal_pmf(pmf, label):
+    normal_pmf = pmf.Copy(label=label)
+    
+    for c, r in pmf.Items():
+        normal_pmf.Mult(x, 1 / x)
+        
+    normal_pmf.normalize()
+    return normal_pmf
+```
+I created a pmf for the data and then loaded in a biased pmf. I also plotted the two pmfs against each other.
+```
+Samplepmf = thinkstats2.Pmf(resp.numkdhh, label='#_of_kids')
+biased = BiasPmf(Samplepmf, label='biased_sample')
+thinkplot.PrePlot(2)
+thinkplot.Pmfs([Samplepmf, biased])
+thinkplot.Config(xlabel='Number of children', ylabel='PMF')
+```
+Afterwards the means were calculated.
+```
+Samplepmf.Mean()
+biased.Mean()
+```
+The mean of the sample was one child where the mean of the biased sample was 2.4 children. The question states that familes with no children had no chance of being selected which was one notable bias on the mean. 
+
 ### Q3. [Think Stats Chapter 4 Exercise 2](statistics/4-2-random_dist.md) (random distribution)  
 This questions asks you to examine the function that produces random numbers.  Is it really random?  A good way to test that is to examine the pmf and cdf of the list of random numbers and visualize the distribution.  If you're not sure what pmf is, read more about it in Chapter 3.  
 
