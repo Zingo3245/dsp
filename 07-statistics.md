@@ -71,7 +71,8 @@ You will see effect size again and again in results of algorithms that are run i
 
 **My Solution**
 This question tasked me with computing Cohen's D to measure the effect size for the difference in weight between first born babies and other babies. I wrote the following function to check for the effect size of Cohen's D(checked against the ThinkStats book):
-```def Cohen_d(group1, group2):
+```
+def Cohen_d(group1, group2):
     diff = group1.mean() - group2.mean()
     n1 = len(group1)
     n2 = len(group2)
