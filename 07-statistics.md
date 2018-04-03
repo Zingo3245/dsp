@@ -154,6 +154,21 @@ It's almost impossible to read the pmf as there are so many different values. Ho
 ### Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
+**My Solution**
+The question is asking what percentage of the US adult male population is between 5'10(177.8 cm) and 6'1(185.4 cm). The following code sets up the normal distribution:
+```
+import scipy.stats
+mu = 178
+sigma = 7.7
+dist = scipy.stats.norm(loc=mu, scale=sigma)
+```
+A cumulative distribution function is used to find the percentage of the sample that is between 5'10 and 6'1:
+```
+Min = dist.cdf(177.8)
+Max = dist.cdf(185.4)
+Max-Min
+```
+The code shows that 34% of the population is between 5'10 and 6'1. The difference is betweem -.03 and .96 Z-scores.
 
 
 ### Q5. Bayesian (Elvis Presley twin) 
