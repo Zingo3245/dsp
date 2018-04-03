@@ -185,7 +185,8 @@ I apporached this problem by calculating by hand the population of fraternal and
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**My Solution**
+Bayesian statistics factor in conditional probablities while Frequentists will consider the long term frequencies of an event occuring. A Baysian statistician can assign probabilities to unknown events while a Frequentist will not. 
 
 ---
 
